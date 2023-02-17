@@ -1,0 +1,40 @@
+@font-face {
+    font-family:meddon-regular;
+    src: url(./Meddon-Regular.ttf);
+}
+@font-face {
+    font-family: Lobster;
+    src: url(./Lobster.ttf);
+}
+/*orden de css*
+
+
+#p1 {
+    color: blueviolet;
+}
+*/
+
+.title_1 {
+    color:#5c0b0b; 
+    font-size: 49px; 
+    font-family: meddon-regular;
+    margin-bottom: -85px;
+    z-index: 1;
+    position: relative;
+}
+mark {
+background-color: #C6D2D2;
+color: blanchedalmond;
+
+}
+
+.title_2 {
+    color:#7B1717; 
+    font-size: 42px;
+    font-family:Lobster;
+    letter-spacing: 4px;
+    margin-top: 7px;
+}
+.description {
+    color:#A0ACAD;
+}
