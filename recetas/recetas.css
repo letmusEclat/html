@@ -8,13 +8,16 @@
 }
 /*orden de css*
 
-
 #p1 {
     color: blueviolet;
 }
 */
-div{
+div {
     background-color: #02674b ;
+    text-align: center;
+    width: 500px;
+   
+
 }
 
 .title_1 {
@@ -25,12 +28,15 @@ div{
     z-index: 1;
     position: relative;
 }
-mark {
-background-color: #C6D2D2;
-color: blanchedalmond;
+.mark {
+    color: rgb(104, 129, 100);
 
 }
+.PrincipalDescription {
+    color: rgb(255, 255, 255);
+    text-decoration: solid;
 
+}
 .title_2 {
     color:#7B1717; 
     font-size: 42px;
@@ -39,5 +45,5 @@ color: blanchedalmond;
     margin-top: 7px;
 }
 .description {
-    color:#A0ACAD;
+    color:#ffffff;
 }
