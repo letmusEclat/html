@@ -26,23 +26,47 @@
     <body style="background-color: #cee7d9;">
         <!--1. se hace el filtro y estas son las busquedas filtradas -->
         <!--cada una de estas secciones debe tener subsecciones de desayuno, almuerzo, cena y snacks, aparte se mostraran las mismas recetas pero sin seccionar(como en pinterest)-->
-        
-        <h1 id="p1" class="title_1">
-             Chef 
-        </h1>
-        <pre>
-            <h1 class=" title_2">   en casa </h1>
-        </pre>
-        <ul>
-            <il>
-                <a href="#r">recetas </a>
-            </il>
-        </ul>
-        <p class="mark"> 
-            Aqui encontrarás las recetas que necesitas sin salir de casa
+        <div class="Menu">
+            <div class="items">
+                <ul>
+                    <il>
+                        <a style="text-decoration: solid;"
+                           href="#1vista">
+                            Inicio
+                        </a>
+                    </il>
+                    <il>
+                        <a href="#2vista"
+                           style="text-decoration: solid;">
+                            Menú
+                        </a>
+                    </il>
+                    <il>
+                        <a href="#3vista" 
+                           style="text-decoration: solid;">
+                            Contáctame:)
+                        </a>
+                    </il>
+                </ul>
+            </div>
+        </div>
+        <div
+            class="logo" id="1vista">
+            <h1 
+                id="p1" class="title_1">
+                Chef 
+            </h1>
+            <pre>
+                <h1 class=" title_2">   en casa </h1>
+            </pre>
+        </div>
+        <p style="color: #717171;"> 
+            <b>
+                Aqui encontrarás las recetas que necesitas sin salir de casa
+            </b>
         </p> 
         
-        <div>
+        <div id="2vista">
             <a 
                 class="PrincipalDescription"
                 href="https://directoalpaladar.com/recetario/comidas-ricas-101-recetas-muy-sabrosas-para-disfrutar-a-grande"> 
@@ -55,7 +79,7 @@
                 </p>
             </a>
         </div>
-        <div>
+        <div class="Cextranjera">
             <a 
                 class="PrincipalDescription"
                 href="https://directoalpaladar.com/recetario/comidas-ricas-101-recetas-muy-sabrosas-para-disfrutar-a-grande"> 
@@ -72,7 +96,7 @@
                 </p>
             </a>
         </div>
-        <div>
+        <div class="Cnacional">
             <!-- hacer un rastreo del navegador (la ubicacion) para que asi solo aparezcan recetas fuera de esa cultura o region, para ya la ubicacion de ese pais haga otra seccion para recetas de la tierrita o algo asi xd-->
             <a 
                 class="PrincipalDescription"
@@ -89,7 +113,7 @@
                 
             </a>
         </div>    
-        <div>
+        <div class="Cvegetariana">
         <!--se filtran los resultados dependiendo de la unicacion-->
             <a 
                 class="PrincipalDescription"
@@ -103,19 +127,16 @@
                 </p>
             </a>
         </div>  
-            
         <!--si el caracter ingresado es producto animal, se ocultara la opcion-->
-        
-        <div id="r">
-
+        <div class="Cvegana">
             <a 
                 class="PrincipalDescription"
                 href="../cvme.pdf"         
                 target="_top"> 
-
-                <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/126FE/production/_110881557_p081pwwb.jpg" 
-                width="250px" 
-                alt="imagen de comida vegana"
+                <img 
+                    src="https://ichef.bbci.co.uk/news/640/cpsprodpb/126FE/production/_110881557_p081pwwb.jpg" 
+                    width="250px" 
+                    alt="imagen de comida vegana"
                 />
                 <h2 style="color:#ffffff;"> 
                     Vegana
@@ -126,7 +147,7 @@ amantes de los animales.
             </pre>
             </a>
         </div>
-        <div>
+        <div class="Cproteica">
             <a 
                 class="PrincipalDescription"
                 href="https://directoalpaladar.com/recetario/comidas-ricas-101-recetas-muy-sabrosas-para-disfrutar-a-grande">
@@ -144,15 +165,25 @@ amantes de los animales.
                 </p> <!--aqui va con fuente blanca-->
             </a>
         </div>
-        <h6 
-            style='color:rgba(243, 156, 18, .8)'>
-                Contactanos:
-        </h6> <br>
+        <div class="footer" id="3vista">
+            <h6 
+                style='color:rgba(243, 156, 18, .8);
+                       margin-bottom: 0px;
+                       font-size: small'>
+                    Contactanos:
+            </h6> <br>
 
-        <a 
-            href="mailto:sofysanchez03@gmail.com?subject=solicitud_de_interes&body=por correo">
-             Por correo
-        </a>
-        
+            <a 
+                style="font-size: small"
+                href="mailto:sofysanchez03@gmail.com?subject=solicitud_de_interes&body=por correo">
+                Por correo
+            </a>
+            <p style="font-size: small;">
+                Pasa y revisa mis proyectos:)
+            </p>
+            <p style="margin-bottom: 0px; font-size: small">
+                sofysanchez03@gmail.com
+            </p>
+        </div>
     </body>
 </html>
