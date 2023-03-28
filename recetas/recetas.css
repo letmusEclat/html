@@ -41,13 +41,16 @@ body{
     display: flex;
     justify-content: flex-end;
 }
+/* iconos del hover de menu*/
 .Icon_menu{
     display: none;
 }
+/*cambio encima del hover menu*/
 li a:hover .Icon_menu{
     display:initial;
     justify-content: center;
 }
+/*inactivar la palabra del menu*/
 li a:hover p{
     display: none;
 }
@@ -57,17 +60,20 @@ li a:hover p{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
+/*la barra completa de menu*/
 ul {
     display: flex;
     justify-content: center;
     padding-left: 0px;
 }
+/*seccion deitems*/
 li {
     list-style-type: none;
     float: left;
     width: 33%;
     height: 100%;
 }
+/*dimensiones de a en item de li*/
 li a{ 
     text-decoration: solid;
     color:#ffffff;
